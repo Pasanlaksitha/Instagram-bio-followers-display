@@ -18,12 +18,19 @@
     ```bash
     git clone https://github.com/Pasanlaksitha/Instagram-bio-followers-display.git
     ```
-2. open bio.py and enter username password 
+
+2. requirement.txt install  
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. open bio.py and enter username password 
     ```python
     username = "USERNAME"
     password = "PASSWORD"
     ```
-3. schedule for the run program (recommended: 6 hours ) 
+4. schedule for the run program (recommended: once per 6 hours ) 
+    - schedule it on task scheduler or google cloud 
 
 ## Other Usage
 

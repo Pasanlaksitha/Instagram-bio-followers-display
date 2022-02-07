@@ -9,7 +9,7 @@
 
 ![This is an image](readme/Capture2.PNG)
 
-**like this**
+### [ Example Instagram Account ](https://www.instagram.com/boinkchimp/)
 
 ## Installation
 

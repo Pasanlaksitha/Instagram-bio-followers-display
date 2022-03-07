@@ -45,7 +45,7 @@ you can convert this for following and posts count also
 
 ## Note 
 
-i used this on Gcloud VM but not working json scrap part on it cuz instagram blocking scraping scripts you can block there script load or use api on rapid API
+i used this on Gcloud VM but not working json scrap part on it. cuz instagram blocking scraping scripts, you can block there script load or use api on rapid API
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

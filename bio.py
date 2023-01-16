@@ -5,7 +5,7 @@ import json
 username = "USERNAME"
 password = "PASSWORD"
 def instagram_json():
-    response = requests.get(f"https://www.instagram.com/{username}/?__a=1")
+    response = requests.get(f"https://www.instagram.com/{username}/?__a=1&__d=dis")
     data = response.json()
     data1 = json.dumps(data)
     data2 = json.loads(data1)
@@ -13,7 +13,7 @@ def instagram_json():
     bio = data2['graphql']['user']['biography']
     print(followers)
     return followers, bio
-    
+
 
 def bio():
     followers, bio = instagram_json()
@@ -22,7 +22,7 @@ def bio():
         ig = Client()
         ig.login(username, password)
         ig.account_edit(biography=f"I have {followers} followers 😇")
-        ig.logout      
-        
+        ig.logout
+
 if __name__ == "__main__":
    bio()
